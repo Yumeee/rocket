@@ -27,6 +27,7 @@ class Rocket
 
   def lift_off
     if flying?
+      # if flying is true
       return false
     else
       @flying = true
