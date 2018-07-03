@@ -58,11 +58,5 @@ class RocketTest < Minitest::Test
     actual_value = rocket.status
     assert_equal(expected_value, actual_value)
   end
-  # 
-  # def test_status_no_arguments
-  #   actual_value = @rocket.status
-  #   expected_value = "Rocket #{name} is ready for lift off!"
-  #   assert_equal(actual_value, expected_value)
-  # end
 
 end
